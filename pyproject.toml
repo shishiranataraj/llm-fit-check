@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "llm-fit-check"
-version = "0.1.0"
+version = "0.1.1"
 description = "One line: which open-source LLM works best on your local machine today."
 readme = "README.md"
 requires-python = ">=3.9"

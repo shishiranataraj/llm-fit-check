@@ -10,7 +10,7 @@ import httpx
 from platformdirs import user_cache_dir
 
 REMOTE_URL = (
-    "https://raw.githubusercontent.com/your-org/llm-fit-check/"
+    "https://raw.githubusercontent.com/shishiranataraj/llm-fit-check/"
     "main/src/llm_fit_check/data/snapshot.json"
 )
 CACHE_TTL_SECONDS = 7 * 24 * 60 * 60  # match the weekly upstream refresh
