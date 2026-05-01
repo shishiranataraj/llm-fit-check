@@ -1,0 +1,244 @@
+{
+  "snapshot_date": "2026-05-01",
+  "sources": [
+    "Open LLM Leaderboard v2 (HuggingFace)",
+    "LiveBench"
+  ],
+  "notes": "Footprints are approximate Q4_K_M GGUF sizes plus ~1GB runtime overhead. Scores 0-100 are mean-of-benchmark-means per task.",
+  "models": [
+    {
+      "id": "qwen2.5-72b",
+      "display": "Qwen2.5 72B Instruct",
+      "params_b": 72,
+      "footprint_gb": 48.0,
+      "ollama": "qwen2.5:72b",
+      "scores": {
+        "general": 93.8,
+        "reasoning": 79.2,
+        "chat": 96.0,
+        "code": 87.5
+      }
+    },
+    {
+      "id": "qwen2.5-32b",
+      "display": "Qwen2.5 32B Instruct",
+      "params_b": 32,
+      "footprint_gb": 21.0,
+      "ollama": "qwen2.5:32b",
+      "scores": {
+        "general": 85.1,
+        "reasoning": 73.7,
+        "chat": 92.8,
+        "code": 80.9
+      }
+    },
+    {
+      "id": "llama-3.3-70b",
+      "display": "Llama 3.3 70B Instruct",
+      "params_b": 70,
+      "footprint_gb": 44.0,
+      "ollama": "llama3.3:70b",
+      "scores": {
+        "general": 83.7,
+        "reasoning": 68.4,
+        "chat": 100.0,
+        "code": 78.7
+      }
+    },
+    {
+      "id": "gemma2-27b",
+      "display": "Gemma 2 27B Instruct",
+      "params_b": 27,
+      "footprint_gb": 17.5,
+      "ollama": "gemma2:27b",
+      "scores": {
+        "general": 80.6,
+        "reasoning": 57.4,
+        "chat": 88.7,
+        "code": 71.2
+      }
+    },
+    {
+      "id": "qwen2.5-coder-32b",
+      "display": "Qwen2.5-Coder 32B",
+      "params_b": 32,
+      "footprint_gb": 21.0,
+      "ollama": "qwen2.5-coder:32b",
+      "scores": {
+        "general": 75.5,
+        "reasoning": 68.7,
+        "chat": 80.7,
+        "code": 73.1
+      }
+    },
+    {
+      "id": "qwen2.5-14b",
+      "display": "Qwen2.5 14B Instruct",
+      "params_b": 14,
+      "footprint_gb": 9.5,
+      "ollama": "qwen2.5:14b",
+      "scores": {
+        "general": 74.7,
+        "reasoning": 61.8,
+        "chat": 90.7,
+        "code": 70.7
+      }
+    },
+    {
+      "id": "gemma2-9b",
+      "display": "Gemma 2 9B Instruct",
+      "params_b": 9,
+      "footprint_gb": 6.0,
+      "ollama": "gemma2:9b",
+      "scores": {
+        "general": 70.8,
+        "reasoning": 51.0,
+        "chat": 82.6,
+        "code": 63.3
+      }
+    },
+    {
+      "id": "phi-4",
+      "display": "Phi-4 14B",
+      "params_b": 14,
+      "footprint_gb": 9.5,
+      "ollama": "phi4:14b",
+      "scores": {
+        "general": 70.8,
+        "reasoning": 79.5,
+        "chat": 6.5,
+        "code": 67.5
+      }
+    },
+    {
+      "id": "deepseek-r1-distill-qwen-14b",
+      "display": "DeepSeek-R1-Distill-Qwen 14B",
+      "params_b": 14,
+      "footprint_gb": 9.5,
+      "ollama": "deepseek-r1:14b",
+      "scores": {
+        "general": 70.3,
+        "reasoning": 86.3,
+        "chat": 48.7,
+        "code": 75.0
+      }
+    },
+    {
+      "id": "qwen2.5-coder-14b",
+      "display": "Qwen2.5-Coder 14B",
+      "params_b": 14,
+      "footprint_gb": 9.5,
+      "ollama": "qwen2.5-coder:14b",
+      "scores": {
+        "general": 61.5,
+        "reasoning": 45.7,
+        "chat": 76.8,
+        "code": 56.2
+      }
+    },
+    {
+      "id": "qwen2.5-7b",
+      "display": "Qwen2.5 7B Instruct",
+      "params_b": 7,
+      "footprint_gb": 5.0,
+      "ollama": "qwen2.5:7b",
+      "scores": {
+        "general": 59.4,
+        "reasoning": 48.0,
+        "chat": 84.3,
+        "code": 57.1
+      }
+    },
+    {
+      "id": "llama-3.1-8b",
+      "display": "Llama 3.1 8B Instruct",
+      "params_b": 8,
+      "footprint_gb": 5.5,
+      "ollama": "llama3.1:8b",
+      "scores": {
+        "general": 51.0,
+        "reasoning": 36.1,
+        "chat": 54.7,
+        "code": 44.8
+      }
+    },
+    {
+      "id": "mistral-nemo-12b",
+      "display": "Mistral Nemo 12B",
+      "params_b": 12,
+      "footprint_gb": 8.0,
+      "ollama": "mistral-nemo:12b",
+      "scores": {
+        "general": 49.7,
+        "reasoning": 30.9,
+        "chat": 70.9,
+        "code": 43.7
+      }
+    },
+    {
+      "id": "qwen2.5-coder-7b",
+      "display": "Qwen2.5-Coder 7B",
+      "params_b": 7,
+      "footprint_gb": 5.0,
+      "ollama": "qwen2.5-coder:7b",
+      "scores": {
+        "general": 48.3,
+        "reasoning": 28.4,
+        "chat": 68.3,
+        "code": 41.7
+      }
+    },
+    {
+      "id": "llama-3.2-3b",
+      "display": "Llama 3.2 3B Instruct",
+      "params_b": 3,
+      "footprint_gb": 2.5,
+      "ollama": "llama3.2:3b",
+      "scores": {
+        "general": 46.6,
+        "reasoning": 22.6,
+        "chat": 82.2,
+        "code": 39.9
+      }
+    },
+    {
+      "id": "deepseek-r1-distill-qwen-32b",
+      "display": "DeepSeek-R1-Distill-Qwen 32B",
+      "params_b": 32,
+      "footprint_gb": 21.0,
+      "ollama": "deepseek-r1:32b",
+      "scores": {
+        "general": 43.8,
+        "reasoning": 33.3,
+        "chat": 46.5,
+        "code": 39.5
+      }
+    },
+    {
+      "id": "llama-3.2-1b",
+      "display": "Llama 3.2 1B Instruct",
+      "params_b": 1,
+      "footprint_gb": 1.2,
+      "ollama": "llama3.2:1b",
+      "scores": {
+        "general": 27.1,
+        "reasoning": 13.0,
+        "chat": 63.3,
+        "code": 24.8
+      }
+    },
+    {
+      "id": "deepseek-r1-distill-qwen-7b",
+      "display": "DeepSeek-R1-Distill-Qwen 7B",
+      "params_b": 7,
+      "footprint_gb": 5.0,
+      "ollama": "deepseek-r1:7b",
+      "scores": {
+        "general": 26.2,
+        "reasoning": 18.8,
+        "chat": 44.9,
+        "code": 25.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+# Static metadata per catalog model: display name, params, Q4_K_M footprint, ollama tag.
+# Leaderboard scores come from upstream; everything here is editorial.
+#
+# Footprint rule of thumb: ~0.6 GB per billion params (Q4_K_M) + 1 GB runtime overhead.
+
+models:
+  deepseek-r1-distill-qwen-32b:
+    display: "DeepSeek-R1-Distill-Qwen 32B"
+    params_b: 32
+    footprint_gb: 21.0
+    ollama: "deepseek-r1:32b"
+  deepseek-r1-distill-qwen-14b:
+    display: "DeepSeek-R1-Distill-Qwen 14B"
+    params_b: 14
+    footprint_gb: 9.5
+    ollama: "deepseek-r1:14b"
+  deepseek-r1-distill-qwen-7b:
+    display: "DeepSeek-R1-Distill-Qwen 7B"
+    params_b: 7
+    footprint_gb: 5.0
+    ollama: "deepseek-r1:7b"
+
+  qwen2.5-72b:
+    display: "Qwen2.5 72B Instruct"
+    params_b: 72
+    footprint_gb: 48.0
+    ollama: "qwen2.5:72b"
+  qwen2.5-32b:
+    display: "Qwen2.5 32B Instruct"
+    params_b: 32
+    footprint_gb: 21.0
+    ollama: "qwen2.5:32b"
+  qwen2.5-14b:
+    display: "Qwen2.5 14B Instruct"
+    params_b: 14
+    footprint_gb: 9.5
+    ollama: "qwen2.5:14b"
+  qwen2.5-7b:
+    display: "Qwen2.5 7B Instruct"
+    params_b: 7
+    footprint_gb: 5.0
+    ollama: "qwen2.5:7b"
+  qwen2.5-coder-32b:
+    display: "Qwen2.5-Coder 32B"
+    params_b: 32
+    footprint_gb: 21.0
+    ollama: "qwen2.5-coder:32b"
+  qwen2.5-coder-14b:
+    display: "Qwen2.5-Coder 14B"
+    params_b: 14
+    footprint_gb: 9.5
+    ollama: "qwen2.5-coder:14b"
+  qwen2.5-coder-7b:
+    display: "Qwen2.5-Coder 7B"
+    params_b: 7
+    footprint_gb: 5.0
+    ollama: "qwen2.5-coder:7b"
+
+  llama-3.3-70b:
+    display: "Llama 3.3 70B Instruct"
+    params_b: 70
+    footprint_gb: 44.0
+    ollama: "llama3.3:70b"
+  llama-3.1-8b:
+    display: "Llama 3.1 8B Instruct"
+    params_b: 8
+    footprint_gb: 5.5
+    ollama: "llama3.1:8b"
+  llama-3.2-3b:
+    display: "Llama 3.2 3B Instruct"
+    params_b: 3
+    footprint_gb: 2.5
+    ollama: "llama3.2:3b"
+  llama-3.2-1b:
+    display: "Llama 3.2 1B Instruct"
+    params_b: 1
+    footprint_gb: 1.2
+    ollama: "llama3.2:1b"
+
+  mistral-small-3:
+    display: "Mistral Small 3 (24B)"
+    params_b: 24
+    footprint_gb: 15.0
+    ollama: "mistral-small:24b"
+  mistral-nemo-12b:
+    display: "Mistral Nemo 12B"
+    params_b: 12
+    footprint_gb: 8.0
+    ollama: "mistral-nemo:12b"
+
+  gemma2-27b:
+    display: "Gemma 2 27B Instruct"
+    params_b: 27
+    footprint_gb: 17.5
+    ollama: "gemma2:27b"
+  gemma2-9b:
+    display: "Gemma 2 9B Instruct"
+    params_b: 9
+    footprint_gb: 6.0
+    ollama: "gemma2:9b"
+
+  phi-4:
+    display: "Phi-4 14B"
+    params_b: 14
+    footprint_gb: 9.5
+    ollama: "phi4:14b"
